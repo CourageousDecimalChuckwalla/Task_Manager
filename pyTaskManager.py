@@ -30,5 +30,5 @@ def get_processes():
 
 if __name__ == "__main__":
     for x in get_processes():
-        print(x)
+        print(list(x.values()))
 
