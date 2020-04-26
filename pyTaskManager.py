@@ -33,9 +33,3 @@ def get_processes():
 if __name__ == "__main__":
     for x in get_processes():
         print(list(x.values()))
-
-
-# References
-# https://www.thepythoncode.com/article/make-process-monitor-python
-#   Raw Code: https://www.thepythoncode.com/code/make-process-monitor-python
-#   Github: https://github.com/x4nth055/pythoncode-tutorials/tree/master/general/process-monitor
