@@ -33,3 +33,6 @@ def get_processes():
 if __name__ == "__main__":
     for x in get_processes():
         print(list(x.values()))
+
+    # print(pd.DataFrame(get_processes()))
+    # This prints in the default pandas format
